@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFBFBF;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li a:hover {
+    background-color: #FFE5E5;
+    color: black;
+}
+
+.form-container {
+    background-color: #FFE5E5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 20px auto;
+}
+
+.form-container,
+.table-container {
+    display: none;
+}
+
+.form-container.active,
+.table-container.active {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input.form-control {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#tabelRegistrasi table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#tabelRegistrasi th,
+#tabelRegistrasi td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#tabelRegistrasi th {
+    background-color: #FFE5E5;
+    color: black;
+}
+
+#tabelRegistrasi tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#tabelRegistrasi tr:hover {
+    background-color: #FFF0F5;
+    cursor: pointer;
+}
